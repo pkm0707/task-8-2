@@ -1,0 +1,25 @@
+.container{
+    background-color: #303e47;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.container > h1{
+    color:#ff5959;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 400px;
+}
+.container > h5{
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 2px;
+}
+span{
+    font-size:xx-large;
+    font-weight: bolder;
+}
+h1::before{
+    content: url(./people-pulling-solid.svg);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
